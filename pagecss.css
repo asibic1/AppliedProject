@@ -1,0 +1,153 @@
+/* 
+    Created on : May 09, 2023, 11:48:02 AM
+    Author     : Aida Sibic
+*/
+
+    a{
+       font-family: 'Source Serif Pro', serif;
+       font-size: 16px;
+       text-decoration: none;
+       color: #black;
+     }
+    a:hover{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 16px;
+        text-decoration: underline;
+        color:#d8d8d8;
+            }
+    a:visited{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 16px;
+        color:#blue;
+            }
+    
+    h1{font-family: 'Comforter', cursive;
+       text-indent: 1em;
+    }
+    
+    h2{font-family: 'Source Serif Pro', serif;
+    }
+            
+    p{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 16px;
+        text-indent: 1em;
+     }
+
+    div{
+      font-family: 'Source Serif Pro', serif;
+        }
+        
+    body {font-family: 'Source Serif Pro', serif;}
+    
+    img {
+        padding-right: 10px;
+    }
+   
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #E8D2FF;
+  color: #0E0047;
+  padding: 4px;
+}
+
+.footer {
+  background-color: #E8D2FF;
+  color: #0E0047;
+  padding: 4px; 
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #E8D2FF;
+  // background-color: #bfc5ff;
+  color: #0E0047;
+  // color: #fcf9f9;
+}
+
+.menu li:hover {
+  background-color: grey;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
